@@ -1,0 +1,23 @@
+// custom
+$pink: #fe469c;
+
+body {
+    background: url(/assets/images/triangle.png) no-repeat 50% 50% $background-color;
+    background-size: 50%;
+}
+
+.logo {
+    height: 80vh;
+    max-height: 80vh;
+    color: yellow;
+    text-align: center;
+    padding-top: 5%;
+    color: $pink;
+
+    svg {
+        max-height: 80vh;
+        height: 80vh;
+        fill: currentColor;
+        margin: 0 auto;
+    }
+}
